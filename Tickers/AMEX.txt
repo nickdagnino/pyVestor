@@ -1,5 +1,5 @@
 Symbol	Description
-AAA	First Priority Clo Bond ETF
+AAA	    First Priority Clo Bond ETF
 AAAU	GS Physical Gold ETF
 AAMC	Altisource Asset Management Corp Com
 AAPR	Innovator Equity Defined Protection ETF Apr 26
@@ -10,7 +10,7 @@ ACES	Alps Clean Energy ETF
 ACIO	Aptus Collared Income Opportunity ETF
 ACSI	American Customer Satisfaction Core Alpha ETF
 ACTV	Leadershares Activist Leaders ETF
-ACU	Acme United Corp
+ACU	    Acme United Corp
 ACVF	American Conservative Values ETF
 ACWV	Ishares Global Min Vol Factor ETF
 ADFI	Anfield Dynamic Fixed Income ETF
@@ -20,28 +20,28 @@ ADPV	Adaptiv Select ETF
 ADR.S	Ault Disruptive Technologies Corp [Adrt.U]
 ADRT	Ault Disruptive Technologies Corp
 ADVE	Matthews Asia Dividend Active ETF
-AE	Adams Resources & Energy
-AEF	Abrdn EM Equity Income Fund Inc
+AE	    Adams Resources & Energy
+AEF	    Abrdn EM Equity Income Fund Inc
 AEMB	American Century Emerging Markets Bond ETF
 AEON	Aeon Biopharma Inc
 AESR	Anfield U.S. Equity Sector Rotation ETF
 AETH	Bitwise Ethereum Strategy ETF
 AFIF	Anfield Universal Fixed Income ETF
-AFK	Vaneck Africa Index ETF
+AFK	    aneck Africa Index ETF
 AFLG	FT Active Factor Large Cap ETF
 AFMC	FT Active Factor Mid Cap ETF
 AFSM	FT Active Factor Small Cap ETF
 AFTY	CSOP FTSE China A50 ETF
-AGG	US Aggregate Bond Ishares Core ETF
+AGG	    US Aggregate Bond Ishares Core ETF
 AGGH	Simplify Aggregate Bond Plus Credit ETF
 AGGS	Harbor Disciplined Bond ETF
 AGGY	Wisdomtree Yield Enhd U.S. Agg Bond Fund
 AGIH	Ishares Inflation Hedged U.S. Aggregate Bond ETF
 AGOX	Adaptive Growth Opportunities ETF
-AGQ	Ultra Silver 2X ETF
+AGQ	    Ultra Silver 2X ETF
 AGQI	First Trust Active Global Quality Income ETF
 AGRH	Interest Rate Hedged U.S. Agg Bond ETF
-AGZ	Agency Bond Ishares ETF
+AGZ	    Agency Bond Ishares ETF
 AHLT	American Beacon Ahl Trend ETF
 AHOY	Tidal Newday Ocean Health ETF
 AHYB	American Century Select High Yield ETF
@@ -49,7 +49,7 @@ AIBD	Direxion Daily Ai and Big Data Bear 2X ETF
 AIBU	Direxion Ai and Big Data Bull 2X ETF
 AIEQ	A.I. Powered Equity ETF
 AIFD	Tcw Artificial Intelligence ETF
-AIM	Aim Immunotech Inc
+AIM	    Aim Immunotech Inc
 AINC	Ashford Inc
 AIRI	Air Industries Group Inc
 AIVI	Wisdomtree International Dividend Top 100 Fund
@@ -64,25 +64,25 @@ AMB.V	Ambipar Emergency Response [Ambi/W]
 AMBI	Ambipar Emergency Response Cl A
 AMBO	Ambow Education Holding Ltd ADR
 AMDY	Yieldmax Amd Option Income Strategy ETF
-AMJ	Alerian MLP Index ETN JP Morgan
+AMJ	A   lerian MLP Index ETN JP Morgan
 AMJB	Alerian MLP Index Etns
 AMLP	Alps Alerian MLP ETF
 AMNA	Etracs Alerian Midstream Energy Index ETN
 AMND	UBS Ag Alerian Midstream Energy High Div ETF
 AMOM	Qraft Ai-Enhanced U.S. Large Cap Momentum ETF
 AMPD	Cnic Carbon Neutral Power Futures ETF
-AMS	American Shared Hospital Services
+AMS	    American Shared Hospital Services
 AMTR	Etracs Alerian Midstream Energy TR ETN
 AMUB	Etracs Alerian MLP Index ETN Series B
 AMZA	Infracap MLP ETF
 AMZP	Neos Yield Premium Strategy Amazon [Amzn] ETF
 AMZY	Yieldmax Amzn Option Income Strategy ETF
 ANEW	MSCI Transformational Changes ETF
-AOA	Aggressive Allocation Ishares Core ETF
+AOA	    Aggressive Allocation Ishares Core ETF
 AOHY	Angel Oak High Yield Opportunities ETF
-AOK	Conservative Allocation Ishares Core ETF
-AOM	Moderate Allocation Ishares Core ETF
-AOR	Growth Allocation Ishares Core ETF
+AOK	    Conservative Allocation Ishares Core ETF
+AOM	    Moderate Allocation Ishares Core ETF
+AOR	    Growth Allocation Ishares Core ETF
 AP.W	Ampco-Pittsburgh Corp Series A WT
 APCB	Activepassive Core Bond ETF
 APIE	Activepassive International Equity ETF
@@ -96,9 +96,9 @@ APRQ	Innovator Premium Income 40 Barrier ETF Apr
 APRT	Allianzim U.S. Large Cap Buffer10 Apr ETF
 APRW	Allianzim U.S. Large Cap Buffer20 Apr ETF
 APRZ	Trueshares Structured Outcome [Apr] ETF
-APT	Alpha Pro Tech
+APT	    Alpha Pro Tech
 APUE	Activepassive U.S. Equity ETF
-ARB	Altshares Merger Arbitrage ETF
+ARB	    Altshares Merger Arbitrage ETF
 ARCM	Arrow Reserve Capital Management ETF
 AREN	The Arena Group Holdings Inc
 ARGT	GX MSCI Argentina ETF
@@ -117,12 +117,12 @@ ARKZ	Ark Active Ethereum Futures Strategy ETF
 ARLU	Allianzim U.S. Equity Buffer15 Uncapped Apr ETF
 ARMN	Aris Mining Corp
 ARMP	Armata Pharmaceuticals Inc
-ARP	Inner Circle II Pmv Adaptive Risk Parity ETF
+ARP	    Inner Circle II Pmv Adaptive Risk Parity ETF
 ASEA	GX FTSE Southeast Asia ETF
 ASHR	Xt Harvest CSI 300 China A-Shares ETF
 ASHS	Xt Harvest CSI 500 China A-Shares Small Cap ETF
 ASIA	Matthews Pacific Tiger Active ETF
-ASM	Avino Silver & Gold
+ASM	    Avino Silver & Gold
 ASMF	Virtus Alphasimplex Managed Futures ETF
 ASXC	Asensus Surgical Inc
 ATCH	Atlasclear Holdings Inc
@@ -170,11 +170,11 @@ AVUS	Avantis U.S. Equity ETF
 AVUV	Avantis U.S. Small Cap Value ETF
 AWAY	ETFMG Travel Tech ETF
 AWEG	Alger Weatherbie Enduring Growth ETF
-AWX	Avalon Holdings Corp
+AWX	    Avalon Holdings Corp
 AXIL	Axil Brands Inc
 AZTD	Aztlan Global Stock Selection Dm Smid ETF
 AZTR	Azitra Inc
-BAB	Taxable Municipal Bond Invesco ETF
+BAB	    Taxable Municipal Bond Invesco ETF
 BACA	Berenson Acquisition Corp I Cl A
 BALI	Blackrock Advantage Large Cap Income ETF
 BALT	Innovator Defined Wealth Shield ETF
@@ -187,7 +187,7 @@ BAMU	Brookstone Ultra-Short Bond ETF
 BAMV	Brookstone Value Stock ETF
 BAMY	Brookstone Yield ETF
 BAPR	Innovator U.S. Equity Buffer ETF Apr
-BAR	Graniteshares Gold Trust Shares
+BAR	    Graniteshares Gold Trust Shares
 BATL	Battalion Oil Corp
 BATT	Adv Battery Metals and Materials Amplify ETF
 BAUG	Innovator U.S. Equity Buffer ETF Aug
@@ -196,7 +196,7 @@ BBAX	JPM Betabuilders Developed Asia-Ex Japan ETF
 BBBI	Bondbloxx BBB Rated 5-10 Year Corporate Bond
 BBBL	Bondbloxx BBB Rated 10+ Year Corporate Bond
 BBBS	Bondbloxx BBB Rated 1-5 Year Corporate Bond
-BBC	Virtus Lifesci Biotech Clinical Trials ETF
+BBC	    Virtus Lifesci Biotech Clinical Trials ETF
 BBCA	JPM Betabuilders Canada ETF
 BBCB	JPM Corp Bond Research Enhanced ETF
 BBEM	JPM Betabuilders Emerging Markets Equity ETF
@@ -209,25 +209,25 @@ BBJP	JPM Betabuilders Japan ETF
 BBLB	JPM Betabuilders U.S Treasury Bond 20+ Year ETF
 BBLU	Ea Bridgeway Blue Chip ETF
 BBMC	JPM Betabuilders U.S. Mid Cap Equity ETF
-BBP	Virtus Lifesci Biotech Products ETF
+BBP	    Virtus Lifesci Biotech Products ETF
 BBRE	JPM Betabuilders MSCI U.S. REIT ETF
 BBSA	JPM Betabuilders 1-5 Year U.S. Aggregate Bond
 BBSB	JPM Betabuilders U.S Treasury Bond 1-3 Year ETF
 BBSC	JPM Betabuilders U.S. Small Cap Equity ETF
 BBUS	JPM Betabuilders U.S. Equity ETF
-BCD	All Commodity Longer Dated Strategy K-1 Free ETF
+BCD	    All Commodity Longer Dated Strategy K-1 Free ETF
 BCDF	Horizon Kinetics Blockchain Development ETF
 BCHP	Principal Exchange-Traded Funds Principal Focuse
-BCI	All Commodity Strategy K-1 Free ETF
+BCI	    All Commodity Strategy K-1 Free ETF
 BCIL	Bancreek International Large Cap ETF
 BCIM	Abrdn Bloomberg Industrial Metals Strategy K-1 F
 BCUS	Bancreek U.S. Large Cap ETF
-BCV	Bancroft Convertible Fund
+BCV	    Bancroft Convertible Fund
 BCV-A	Bancroft Fund Ltd
 BDCX	Etracs Quarterly Pay 1.5X Bdc ETN
 BDCZ	Etracs Bus Dev ETN Series B
 BDEC	Innovator U.S. Equity Buffer ETF Dec
-BDL	Flanigan's Enterprises
+BDL	    Flanigan's Enterprises
 BDRY	Breakwave Dry Bulk Shipping ETF
 BDVG	Imgp Berkshire Dividend Growth ETF
 BECO	Blackrock Future Climate and Sustainable ETF
@@ -241,14 +241,14 @@ BETZ	Roundhill Sports Betting & Igaming ETF
 BFEB	Innovator U.S. Equity Buffer ETF Feb
 BFIX	Build Funds Trust Build Bond Innovation ETF
 BFOR	Barron's 400 ETF
-BGI	Birks Group Inc
+BGI	    Birks Group Inc
 BGIG	ETF Series Bahl & Gaynor Income Growth ETF
 BGLD	FT Gold Strategy Quarterly Buffer ETF
-BHB	Bar Harbor Bankshares
-BHM	Bluerock Homes Trust Inc
+BHB	    Bar Harbor Bankshares
+BHM	    Bluerock Homes Trust Inc
 BHYB	Dbx USD High Yield Bb-B Ex Financials ETF
 BIBL	Inspire 100 ETF
-BIL	1-3 Month T-Bill Barclays Capital SPDR
+BIL	    1-3 Month T-Bill Barclays Capital SPDR
 BILD	Macquarie Global Listed Infrastructure ETF
 BILS	SPDR Barclays 3-12 Month T-Bill ETF
 BILZ	Pimco Ultra Short Government Active ETF
@@ -264,7 +264,7 @@ BITO	Proshares Bitcoin Strategy ETF
 BITQ	Bitwise Crypto Industry Innovators ETF
 BITU	Proshares Ultra Bitcoin ETF
 BITX	Volatility 2X Bitcoin Strategy ETF
-BIV	Interm Term Bond ETF Vanguard
+BIV	    Interm Term Bond ETF Vanguard
 BIZD	Vaneck Bdc Income ETF
 BJAN	Innovator U.S. Equity Buffer ETF Jan
 BJUL	Innovator U.S. Equity Buffer ETF Jul
@@ -272,7 +272,7 @@ BJUN	Innovator U.S. Equity Buffer ETF Jun
 BKAG	BNY Mellon Core Bond ETF
 BKCI	BNY Concentrated International ETF
 BKEM	BNY Mellon Emerging Markets Equity ETF
-BKF	BRIC Ishares MSCI ETF
+BKF	    BRIC Ishares MSCI ETF
 BKGI	BNY Mellon Global Infrastructure Income ETF
 BKHY	BNY Mellon High Yield Beta ETF
 BKIE	BNY Mellon International Equity ETF
@@ -290,7 +290,7 @@ BLOK	Transformational Data Sharing Amplify ETF
 BLU.U	Blueriver Acquisition Corp [Blua.U]
 BLU.W	Blueriver Acquisition Corp WT [Blua/W]
 BLUA	Blueriver Acquisition Corp Cl A
-BLV	Long Term Bond Index ETF Vanguard
+BLV	    Long Term Bond Index ETF Vanguard
 BMAR	Innovator U.S. Equity Buffer ETF Mar
 BMAY	Innovator U.S. Equity Buffer ETF May
 BMED	Blackrock Future Health ETF
@@ -300,11 +300,11 @@ BMVP	Invesco Bloomberg Mvp Multi-Factor ETF
 BNDC	Flexshares Core Select Bond Fund
 BNDD	Quadratic Deflation ETF
 BNDI	Neos Enhanced Income Aggregate Bond ETF
-BNE	ETF Series Blue Horizon Bne ETF
+BNE	    ETF Series Blue Horizon Bne ETF
 BNGE	S-Network Streaming and Gaming ETF FT
 BNKD	Microsectors U.S. Big Banks -3X ETN
 BNKU	Microsectors U.S. Big Banks 3X ETN
-BNO	US Brent Oil
+BNO	    US Brent Oil
 BNOV	Innovator U.S. Equity Buffer ETF Nov
 BOAT	Sonicshares Global Shipping ETF
 BOCT	Innovator U.S. Equity Buffer ETF Oct
@@ -312,26 +312,26 @@ BOIL	Ultra Bloomberg Natural Gas 2X ETF
 BOUT	Innovator Ibd Breakout Opportunities ETF
 BOXX	Ea Architect 1-3 Month Box ETF
 BPAY	Blackrock Future Financial and Technology ETF
-BQ	Boqii Holding Ltd ADR
+BQ	    Boqii Holding Ltd ADR
 BRAZ	GX Brazil Active ETF
 BRBS	Blue Ridge Bankshare
-BRF	Vaneck Brazil Smallcap ETF
+BRF	    Vaneck Brazil Smallcap ETF
 BRLN	Blackrock Floating Rate Loan ETF
-BRN	Barnwell Industries
+BRN	    Barnwell Industries
 BRZU	Brazil Bull 3X Direxion
 BSEP	Innovator U.S. Equity Buffer ETF Sep
 BSMC	Brandes U.S. Small-Mid Cap Value ETF
-BSR	Beacon Selective Risk ETF
+BSR	    Beacon Selective Risk ETF
 BSTP	Innovator Buffer Step-Up Strategy ETF
-BSV	Short-Term Bond ETF Vanguard
+BSV	    Short-Term Bond ETF Vanguard
 BTAL	US Anti-Beta Fund Mkt Neutral Quantshares
 BTCO	Invesco Galaxy Bitcoin ETF
 BTCW	Wisdomtree Bitcoin Fund
 BTEK	Blackrock Future Tech ETF
-BTG	B2Gold Corp
+BTG	    B2Gold Corp
 BTHM	Blackrock Future U.S. Themes ETF
 BTOP	Bitwise Bitcoin and Ether EW Strategy ETF
-BTR	Beacon Tactical Risk ETF
+BTR	    Beacon Tactical Risk ETF
 BTRN	GX Bitcoin Trend Strategy ETF
 BTTR	Better Choice Company Inc
 BUCK	Simplify Stable Income ETF
@@ -344,7 +344,7 @@ BUFR	FT Fund of Buffer ETFS
 BUFS	FT Vest Laddered Small Cap Mod Buffer ETF
 BUFT	FT Buffered Allocation Defensive ETF
 BUFZ	FT CBOE Vest Laddered Moderate Buf ETF
-BUL	Pacer US Cash Cows Growth ETF
+BUL	    Pacer US Cash Cows Growth ETF
 BULZ	Microsectors Fang & Innovation 3X ETN
 BURU	Nuburu Inc
 BUSA	Brandes U.S. Value ETF
@@ -354,11 +354,11 @@ BUZZ	Vaneck Social Sentiment ETF
 BWEB	Bitwise Web3 ETF
 BWET	Breakwave Tanker Shipping ETF
 BWTG	Brendan Wood Topgun Index ETF
-BWX	Intl Treasury Bond ETF SPDR
-BWZ	Short-Term Intl Treasury Bond ETF SPDR
+BWX	    Intl Treasury Bond ETF SPDR
+BWZ	    Short-Term Intl Treasury Bond ETF SPDR
 BYLD	Yield Optimized Bond Ishares ETF
 BYRE	Principal Real Estate ETF
-BZQ	Ultrashort MSCI Brazil Capped -2X ETF
+BZQ	    Ultrashort MSCI Brazil Capped -2X ETF
 CAAA	FT Commercial Mortgage Opp ETF
 CALF	Pacer US Small Cap Cash Cows 100 ETF
 CAML	Congress Large Cap Growth ETF
@@ -382,16 +382,16 @@ CCMG	Ea Series Trust Ccm Global Equity ETF
 CCOR	Core Alternative ETF
 CCRV	Ishares Commodity Curve Carry ETF
 CDEI	MS US Large-Cap Diversity Equity and Inclusion E
-CDX	Simplify High Yield Plus Credit ETF
-CEF	Sprott Physical Gold & Silver Trust
+CDX	    Simplify High Yield Plus Credit ETF
+CEF	    Sprott Physical Gold & Silver Trust
 CEFD	Etracs Monthly Pay 1.5X ETN
 CEFS	Exchange Listed Funds Trust ETF
-CEI	Camber Energy Inc
+CEI	    Camber Energy Inc
 CEMB	Emrg Mkts Corp Bond Ishares JPM ETF
-CET	Central Securities Corp
+CET	    Central Securities Corp
 CETF	Drivewealth ICE 100 Index ETF
-CEV	Eaton Vance California Muni Income Trust
-CEW	Wisdomtree Emerging Currency Strategy Fund
+CEV	    Eaton Vance California Muni Income Trust
+CEW	    Wisdomtree Emerging Currency Strategy Fund
 CFCV	Clearbridge Focus Value ETF
 CGBL	Capital Group Core Balanced ETF
 CGCB	Capital Group Core Bond ETF
@@ -407,7 +407,7 @@ CGRO	Corevalues Alpha Greater China Growth ETF
 CGSD	Capital Group Short-Duration Income ETF
 CGSM	Capital Group Short Duration Muni Income ETF
 CGUS	Capital Core Equity ETF
-CGW	S&P Global Water Index Invesco ETF
+CGW	    S&P Global Water Index Invesco ETF
 CGXU	Capital Intl Focus Equity ETF
 CHAA	Catcha Investment Corp Cl A
 CHAI	Defiance Israel Bond ETF
@@ -416,16 +416,16 @@ CHAU	CSI 300 China A 2X ETF Direxion
 CHGX	Diversified U.S. Large Cap Fossil Fuel ETF
 CHIQ	GX MSCI China Consumer Discretionary ETF
 CHRO	Chromocell Therapeutics Corp
-CIK	Credit Suisse Asset Management
-CIX	Compx International Inc
-CKX	Ckx Lands
+CIK	    Credit Suisse Asset Management
+CIX	    Compx International Inc
+CKX	    Ckx Lands
 CLD.W	Calidi Biotherapeutics Inc WT [Cldi.W]
 CLDI	Calidi Biotherapeutics Inc
 CLDL	Cloud Computing 2X Shares Direxion
 CLIA	Veridien Climate Action ETF
 CLIP	GX 1-3 Month T-Bill ETF
 CLIX	Long Online/Short Stores ETF
-CLM	Cornerstone Strategic Value Fund
+CLM	    Cornerstone Strategic Value Fund
 CLNR	IQ Cleaner Transport ETF
 CLOI	Vaneck Clo ETF
 CLOX	Panagram AAA Clo ETF
@@ -436,8 +436,8 @@ CMCI	Vaneck CMCI Commodity Strategy ETF
 CMCL	Caledonia Mining Cp
 CMDT	Pimco Commodity Strategy Active ETF
 CMDY	Bberg Roll Select cmdty Strategy Ishares ETF
-CMF	California Muni Bond Ishares ETF
-CMT	Core Molding Technologies Inc
+CMF	    California Muni Bond Ishares ETF
+CMT	    Core Molding Technologies Inc
 CNBS	Amplify Seymour Cannabis ETF
 CND.S	Concord Acquisition Corp II [Cnda.U]
 CND.T	Concord Acquisition Corp II WT [Cnda/W]
@@ -447,9 +447,9 @@ CNRG	SPDR Kensho Clean Power ETF
 CNXT	Vaneck Chinaamc Sme-Chnext ETF
 CNYA	China A Ishares MSCI ETF
 COAL	Global Coal Index ETF
-COE	51Talk Online Education Group
+COE	    51Talk Online Education Group
 COHN	Cohen & Company Inc
-COM	Auspice Broad Commodity Strategy ETF Direxion
+COM	    Auspice Broad Commodity Strategy ETF Direxion
 COMB	Graniteshares Commodity Broad No K-1 ETF
 CONY	Yieldmax Coin Option Income Strategy ETF
 COPX	GX Copper Miners ETF

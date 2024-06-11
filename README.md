@@ -1,1 +1,4 @@
 # pyVestor
+
+the process:
+

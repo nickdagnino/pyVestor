@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import datetime as dt
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
+#from sklearn.preprocessing import MinMaxScaler
 
 class TermTrajectory:
 
@@ -12,10 +12,10 @@ class TermTrajectory:
 
     print("Start:")
 
-    file = open("TermTrajectory.txt", 'w')
-    file.write("TermTrajectory.txt\n")
-    file.write("Start:\n")
-    file.write("Pulling data: H:\My Drive\Vs Code\Code\stockMarketData-AAL.csv\n")
+   # file = open("TermTrajectory.txt", 'w')
+    #file.write("TermTrajectory.txt\n")
+    #file.write("Start:\n")
+    #file.write("Pulling data: H:\My Drive\Vs Code\Code\stockMarketData-AAL.csv\n")
 
     global dS
     global dateX 
@@ -24,7 +24,7 @@ class TermTrajectory:
     global clusterSetY
     global coefs
 
-    dataSet = pd.read_csv('H:\My Drive\Vs Code\Code\stockMarketData-AAL.csv') #H:\My Drive\Vs Code\Code\stockMarketData-TSLA.csv
+    dataSet = pd.read_csv('stockMarketData-AAL.csv') #H:\My Drive\Vs Code\Code\stockMarketData-TSLA.csv
     dS = dataSet.sort_values('Date')
     dS.head()
 
@@ -49,25 +49,25 @@ class TermTrajectory:
         print("Creating %s clustered data sets for the x variable." %div)
         for i in range(0, len(dateX), div):
             clusterSetX.append(dateX[slice(i, i+div)])
-        file.write("%s clustered data sets for the x variable have been created.  Printed to file. \n" %div)
-        file.write('%s\n' %clusterSetX)
+        #file.write("%s clustered data sets for the x variable have been created.  Printed to file. \n" %div)
+        #file.write('%s\n' %clusterSetX)
 
     def clusterY(div):
         print("Creating clustered data for the y variable.")
         for i in range(0, len(closeY), div):
             clusterSetY.append(closeY[slice(i, i+div)])
-        file.write("%s clustered data sets for the x variable have been created.  Printed to file. \n" %div)
-        file.write('%s\n' %clusterSetY)
+        #file.write("%s clustered data sets for the x variable have been created.  Printed to file. \n" %div)
+        #file.write('%s\n' %clusterSetY)
     
     def findCoefs():
         print("Finding coefficents for each section.")
         for i in range(len(clusterSetX)):
             coefs.append(np.poly1d(np.polyfit(clusterSetX[i], clusterSetY[i], 1)))
-        file.write("All coefficents have been found.\n")
-        file.write('%s\n' %coefs)
+        #file.write("All coefficents have been found.\n")
+        #file.write('%s\n' %coefs)
 
-    clusterX(75)
-    clusterY(75)
+    clusterX(50)
+    clusterY(50)
 
     findCoefs()
 
@@ -84,5 +84,5 @@ class TermTrajectory:
     plt.show()
     
     print("End:")
-    file.write("End:")
-    file.close()
+    #file.write("End:")
+   # file.close()
