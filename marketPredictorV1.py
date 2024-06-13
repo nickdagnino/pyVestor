@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 # Step 1: Data Collection
-data = pd.read_csv('Market Data\TSLA (1).csv')
+data = pd.read_csv('Market Data\KO.csv')
 
 X = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
 y = data['Close'].values
@@ -23,7 +23,7 @@ bias = 0.0
 # Step 5: Model Training
 max_iterations = 1000000
 learning_rate = .25
-tolerance = 0.0000001
+tolerance = 0.0000000000000000001
 
 cost_old = np.inf
 
@@ -58,3 +58,18 @@ print(f"Model Accuracy: {accuracy}")
 print(f"True: \n{y_test},\n Produced: \n{y_pred_test}")
 print(f"Weights: {weights}")
 print(f"Bias: {bias}")
+
+# Step: Model Prediction
+#new_data = np.array([[64.089996, 64.220001, 63.810001, 63.910000, 9523100]])
+
+#new_data = StandardScaler().fit_transform(new_data)
+
+data = pd.read_csv('Market Data\KO copy.csv')
+
+new_value = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
+
+new_value = StandardScaler().fit_transform(X)
+
+next_value = np.dot(X, weights) + bias
+
+print(f"The predicted next value is: {next_value}")
