@@ -7,8 +7,8 @@ from sklearn.model_selection import train_test_split
 # Step 1: Data Collection
 data = pd.read_csv('Market Data\KO.csv')
 
-X = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
-y = data['Close'].values
+X = data[['High', 'Low', 'Close', 'Adj Close', 'Volume']].values
+y = data['Open'].values
 
 # Step 2: Data Preprocessing
 X = StandardScaler().fit_transform(X)
@@ -55,21 +55,17 @@ percent_diff = np.abs((y_test - y_pred_test) / y_test) * 100
 accuracy = 100 - np.mean(percent_diff)
 
 print(f"Model Accuracy: {accuracy}")
-print(f"True: \n{y_test},\n Produced: \n{y_pred_test}")
+print(f"Difference: \n{y_test-y_pred_test}")
 print(f"Weights: {weights}")
 print(f"Bias: {bias}")
 
 # Step: Model Prediction
-#new_data = np.array([[64.089996, 64.220001, 63.810001, 63.910000, 9523100]])
-
-#new_data = StandardScaler().fit_transform(new_data)
-
 data = pd.read_csv('Market Data\KO copy.csv')
 
-new_value = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
+new_open = data[['High', 'Low', 'Close', 'Adj Close', 'Volume']].values
 
-new_value = StandardScaler().fit_transform(X)
+new_open = StandardScaler().fit_transform(new_open)
 
-next_value = np.dot(X, weights) + bias
+next_open = np.dot(new_open, weights) + bias
 
-print(f"The predicted next value is: {next_value}")
+print(f"The predicted next value is: {next_open[len(next_open)-1]}")

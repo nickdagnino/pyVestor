@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import datetime as dt
 import numpy as np
+
+import datetime as date
 #from sklearn.preprocessing import MinMaxScaler
 
 class TermTrajectory:
@@ -84,5 +86,6 @@ class TermTrajectory:
     plt.show()
     
     print("End:")
+
     #file.write("End:")
    # file.close()
