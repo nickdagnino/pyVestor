@@ -7,8 +7,11 @@ from sklearn.model_selection import train_test_split
 # Step 1: Data Collection
 data = pd.read_csv('Market Data\KO.csv')
 
-X = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
-y = data['Close'].values
+X = data[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']].values
+y = data['Close'].shift(-1).values
+
+X = X[:-1]
+y = y[:-1]
 
 # Step 2: Data Preprocessing
 X = StandardScaler().fit_transform(X)
@@ -17,7 +20,7 @@ X = StandardScaler().fit_transform(X)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state=42)
 
 # Step 4: Initialize Parameters
-weights = np.zeros(shape=(5,))
+weights = np.zeros(shape=(6,))
 bias = 0.0
 
 # Step 5: Model Training
@@ -62,10 +65,10 @@ print(f"Bias: {bias}")
 # Step 7: Model Prediction
 data = pd.read_csv('Market Data\KO copy.csv')
 
-new_close = data[['Open', 'High', 'Low', 'Adj Close', 'Volume']].values
+new_close = data[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']].values
 
 new_close = StandardScaler().fit_transform(new_close)
 
 next_close = np.dot(new_close, weights) + bias
 
-print(f"The predicted next value is: {next_close[len(next_close)-1]}")
+print(f"The predicted next value is: {next_close[-2]}")

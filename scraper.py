@@ -29,29 +29,42 @@ for file in os.listdir(directory):
 
     for symbol in symbols:
 
-        #for info in range(len(symbols)):
-            ticker = symbol[:symbol.index('\t')]
-            #ticker = symbols[info][:symbols[info].index('\t')]
+        ticker = symbol[:symbol.index('\t')]
 
-            if '.' in ticker:
-                replace = ticker.split('.')
-                ticker = replace[0] + '-' + replace[1]
+        if '.' in ticker:
+            replace = ticker.split('.')
+            ticker = replace[0] + '-' + replace[1]
 
-            print(ticker)
+        print(ticker)
 
-            link = f'https://query1.finance.yahoo.com/v7/finance/download/{ticker}?period1={period1}&period2={period2}&interval={interval[0]}&events={event[0]}&includeAdjustedClose={adjustedClose[0]}'
+        link = f'https://query1.finance.yahoo.com/v7/finance/download/{ticker}?period1={period1}&period2={period2}&interval={interval[0]}&events={event[0]}&includeAdjustedClose={adjustedClose[0]}'
             
-            response = requests.get(link, headers=headers)
+        try:
+            response = requests.get(link, headers=headers, timeout=10)
+        except (requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
+            
+            if isinstance(e, requests.exceptions.ReadTimeout):
+                print("Timeout occurred")
+            
+            elif isinstance(e, requests.exceptions.ConnectionError):
+                print(f"Connection error: {e}")
+            
+            else:
+                print(f"An unexpected error occurred: {e}")
 
-            try:
-                assert response.status_code == 200
-            except AssertionError:
-                print(f'Ticker, {ticker}, is invalid.')
-        
+        try:
+            assert response.status_code == 200
+            if(response.status_code == 401):
+                break
+        except AssertionError:
+            print(response.status_code)
+            print(f'Ticker, {ticker}, is invalid.')
 
-            folder_path = f'C:\\Users\\Nick Dagnino\\OneDrive\\Desktop\\Market Data\\{ticker}.csv'
+        folder_path = f'C:\\Users\\Nick Dagnino\\OneDrive\\Desktop\\Market Data\\{ticker}.csv'
 
-            with open(folder_path, 'wb') as file:
-                file.write(response.content)
+        with open(folder_path, 'wb') as file:
+            file.write(response.content)
+
+        time.sleep(1.25)
 
 print('SCRAPE HAS TERMINATED')

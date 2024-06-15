@@ -1,0 +1,3 @@
+TermTrajectory.txt
+Start:
+Pulling data: H:\My Drive\Vs Code\Code\stockMarketData-AAL.csv
