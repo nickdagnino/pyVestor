@@ -5,9 +5,10 @@ import requests
 import time
 
 directory = 'Tickers'
-
-period1 = -2147483648
+ 
+period1 = 1 #-2147483648
 period2 = int(date.datetime.now().timestamp())
+print(period2)
 interval = ['1d', '1wk', '1mo']
 event = ['history', 'div', 'split', 'capitalGain']
 adjustedClose = ['true', 'false']
@@ -60,11 +61,11 @@ for file in os.listdir(directory):
             print(response.status_code)
             print(f'Ticker, {ticker}, is invalid.')
 
-        folder_path = f'C:\\Users\\Nick Dagnino\\OneDrive\\Desktop\\Market Data\\{ticker}.csv'
+        folder_path = f'C:\\Market\\{ticker}.csv'
 
         with open(folder_path, 'wb') as file:
             file.write(response.content)
 
-        time.sleep(1.25)
+        time.sleep(.125)
 
 print('SCRAPE HAS TERMINATED')
