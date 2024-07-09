@@ -35,8 +35,8 @@ bias = np.float64(0.0)
 
 # Step 5: Model Training
 max_iterations = 1000000
-learning_rate = .01
-tolerance = .0000000000001
+learning_rate = .015
+tolerance = .0000001
 gradient_clip_value = 1
 
 cost_old = np.inf
@@ -74,6 +74,9 @@ print(f"Weights: {weights}")
 print(f"Bias: {bias}")
 
 # Step 7: Model Prediction
-next_value = np.dot(X[len(X)-1], weights) + bias
+X1 = data[['Open', 'High', 'Low', 'Close', 'Adj Close', 'Volume']].values
+X1 = StandardScaler().fit_transform(X1)
+
+next_value = np.dot(X1[-1], weights) + bias
 
 print(f"The predicted next value is: {next_value}")
