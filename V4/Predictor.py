@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
 from NN import NN
+from ConfigurableNeuralNetwork import NeuralNetwork
 
 # Step 1: Data Collection
 ticker = 'KO (3)'
@@ -30,12 +31,14 @@ learning_rate = 0.01
 max_iterations = 10000
 tolerance = .000000001
 
-Predictor = NN(num_attributes, learning_rate)
+#Predictor1 = NN(num_attributes, learning_rate)
+Predictor2 = NeuralNetwork(6, [6, 6], 1)
 
 # Step 5: Model Training
 
-Predictor.train(X_train, y_train, max_iterations, tolerance)
+#Predictor1.train(X_train, y_train, max_iterations, tolerance)
+Predictor2.train(X_train, y_train)
 
 # Step 6: Model Testing
 
-Predictor.test(X_test, y_test)
+Predictor2.test(X_test, y_test)
