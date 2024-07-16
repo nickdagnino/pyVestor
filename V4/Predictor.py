@@ -32,7 +32,7 @@ max_iterations = 10000
 tolerance = .000000001
 
 #Predictor1 = NN(num_attributes, learning_rate)
-Predictor2 = NeuralNetwork(6, [6, 6], 1)
+Predictor2 = NeuralNetwork(6, [6], 1)
 
 # Step 5: Model Training
 
